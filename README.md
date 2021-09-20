@@ -76,7 +76,7 @@ python SCN_CNNmodel.py --help
 For this repository is written under tensorflow 1.15, please replace the `import tensorflow as tf` command at the beginning  of each model script with:
 ```
 import tensorflow.compat.v1 as tf
-tf.compat.v1.disable_eager_execution()
+tf.disable_eager_execution()
 ```
 if you want to use it under tensorflow 2.0 framework.
 ## Dataset Generation
